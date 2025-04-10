@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(#d9ff00,#e7f0d1);
+    
+}
+*{
+margin: 0;
+padding: 0;
+}
+.card{
+    background: linear-gradient(rgba(255, 0, 123, 1),rgba(121, 13, 216, 1)) !important;
+    border-bottom: 5px solid rgba(143, 99, 241, 1),rgba(61, 141, 235, 1),  rgba(35, 206, 164, 1) ;
+}
+.img-welcome{
+    width: 5%;
+}
+@media (max-width: 575.98px) { 
+    .img-welcome{
+        width: 15%;
+    }
+    .img-bow{
+        width:90%; 
+    
+    }
+  
+ }
+ .name{
+    background-image: linear-gradient(rgb(0, 4, 255), rgb(33, 202, 214));
+    color: transparent;
+    background-clip: text;
+ }
+ .img-bow{
+    width:90%; 
+
+}
+.topic{
+    border-bottom: 3px solid white;
+}
+.add-button{
+    background-color: #02041D;
+    right:43px;
+    bottom:50px;
+}
+.add-button:hover{
+    background: linear-gradient(rgba(255, 255, 255, 1),  rgba(227, 250, 255, 1), rgba(174, 241, 255, 1));
+    color: black !important;
+}
+.overlay{
+    background-color:black;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    opacity: 0.8;
+     z-index: 1;
+       display:none;
+
+}
+.kadhal{
+    width:100%
+}
+.popupbox{
+    position: absolute;
+    z-index: 2;
+    background-color:#02041D;
+    color:black;
+   margin-top: 10px;
+    padding:20px;
+    border-radius: 10px;
+    left:10%;
+    top:0%;
+    right:10px;
+    width:80%;
+    height: 80%;
+    display: none; 
+}
+.bottom-design{
+    background: linear-gradient(0.25turn, rgba(143, 99, 241, 1), rgba(61, 141, 235, 1), rgba(35, 206, 164, 1));
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    min-width: 100%;
+    min-height: 5px;
+}
